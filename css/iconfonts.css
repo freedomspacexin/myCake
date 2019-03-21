@@ -1,0 +1,29 @@
+@font-face {  /*声明字体  引用字体*/
+    font-family: "icomoon";  /*我们自己起名字可以*/
+    font-style: normal;  /*倾斜字体正常*/
+    /*固定写法，路径为自已的字体路径*/
+    src:  url('../fonts/icomoon.eot?7kkyc2');
+    src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+    url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+    url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+}
+
+.icomoon_font {
+    font-family:icomoon;
+}
+.icomoon_font_android::before {
+      content: "\eac0";
+}
+
+.icomoon_font_ios::before {
+    content: "\eabe";
+}
+
+.icomoon_font_top::before {
+    content: "\e902";
+}
+
+.icomoon_font_customer::before {
+    content: "\e942";
+}

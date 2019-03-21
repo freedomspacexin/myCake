@@ -1,0 +1,17 @@
+/*°æÐÄ*/
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+[data-animate] {
+    visibility: hidden;
+}
+
+.animated {
+    visibility: visible;
+}
+
+.main-color {
+    color: #684028;
+}
